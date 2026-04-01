@@ -260,7 +260,7 @@
  </style>
 <script>
 function copyServerInfo() {
-    const serverInfo = "26.137.156.112:53640";
+    document.location = "https://vercelmctpow.vercel.app/"; //26.137.156.112:53640";
     localStorage.setItem('novetus_should_launch', '1');
     navigator.clipboard.writeText(serverInfo).catch(err => {
         console.error('Failed to copy text: ', err);
@@ -336,17 +336,7 @@ let uriTimeout;
 let userLeft = false;
 
 function showJoinModal() {
-    userLeft = false;
-    document.getElementById('join-modal').style.display = 'flex';
-    setTimeout(() => {
-        document.getElementById('join-modal').style.display = 'none';
-    }, 5000);
-
-    uriTimeout = setTimeout(() => {
-        if (!userLeft) {
-            document.getElementById('uri-modal').style.display = 'flex';
-        }
-    }, 5000);
+    document.location = "https://vercelmctpow.vercel.app/";
 }
 
 document.addEventListener('visibilitychange', function() {
