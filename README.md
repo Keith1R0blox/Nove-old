@@ -1,1 +1,3 @@
-cool website idk
+where it started it all
+
+currently the worst website I've made
